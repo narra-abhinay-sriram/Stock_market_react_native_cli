@@ -1,15 +1,16 @@
 import React from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { DefaultTheme, NavigationContainer } from '@react-navigation/native';
-import HomeScreen from '../screens/HomeScreen';
+import HomeScreen from '../screens/dashboard/HomeScreen';
 import { useCustomTheme } from './Theme';
-import LoginScreen from '../screens/LoginScreen';
+import LoginScreen from '../screens/auth/LoginScreen';
 const Stack = createNativeStackNavigator();
 
 
 
 const Navigation = () => {
   const theme = useCustomTheme();
+  //console.log('theme',theme);
   const Mytheme = {
     ...DefaultTheme,
     colors:{

@@ -9,8 +9,8 @@ export const Light_theme = {
     card : Colors.light_card,
     notification : Colors.light_card,
     primary : Colors.themeColor,
-    text : Colors.light_text
-  }
+    text : Colors.light_text,
+  },
 };
 export const Dark_theme = {
   dark:true,
@@ -20,12 +20,13 @@ export const Dark_theme = {
     card : Colors.dark_card,
     notification : Colors.dark_card,
     primary : Colors.themeColor,
-    text : Colors.dark_text
-  }
+    text : Colors.dark_text,
+  },
 };
 
 export const useCustomTheme = ()=>{
   const scheme = useColorScheme();
+  console.log('detected',scheme);
   return scheme === 'dark' ? Dark_theme : Light_theme;
 };
 

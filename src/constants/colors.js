@@ -9,9 +9,10 @@ export const Colors = {
   active_tab : '#97A4EF',
   unactive_tab : '#7C7D8B',
   light_card : '#F9F9F9',
-  light_background : '#F8F8F8',
+  light_background:'#FFF',
+  light_Sub_background : '#F8F8F8',
   light_border : '#484C56',
   light_text : '#000000',
   profit : '#0ABB93',
-  loss : '#D55538'
+  loss : '#D55538',
 };
