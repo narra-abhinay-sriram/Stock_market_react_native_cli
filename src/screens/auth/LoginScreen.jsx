@@ -11,6 +11,7 @@ import Icon from 'react-native-vector-icons/Ionicons';
 import Googleicon from '../../assets/images/google.png';
 import TouchableText from '../../components/auth/TouchableText';
 import BottomText from '../../components/auth/BottomText';
+import { SigninWithGoogle } from '../../redux/SocialLogin';
 
 
 const LoginScreen = () => {
@@ -33,7 +34,7 @@ const LoginScreen = () => {
       <SocialButtonLogin
        icon={<Image source={Googleicon} style={{ width : 20, height : 20}} />}
        text={'Continue with Google'}
-       onPress={()=>{}}
+       onPress={()=>{SigninWithGoogle();}}
        />
        <SocialButtonLogin
        icon={<Icon name={'logo-apple'} size={18} color={'black'} />}

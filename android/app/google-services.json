@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "330239980465",
+    "project_id": "stock-market-db128",
+    "storage_bucket": "stock-market-db128.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330239980465:android:07a0499b4bb2d96d0f4390",
+        "android_client_info": {
+          "package_name": "com.stock_market_app_groww"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "330239980465-6h67usjvaib99u301bctgssdg67j060e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.stock_market_app_groww",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "330239980465-pjv9ccccu6knbi71a857e06klenourc0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzuG4ZZ3UzDZC_e6EKJQ-wzIBxgXs6zRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "330239980465-pjv9ccccu6knbi71a857e06klenourc0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
