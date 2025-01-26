@@ -14,7 +14,7 @@ import BottomText from '../../components/auth/BottomText';
 import { SigninWithGoogle } from '../../redux/SocialLogin';
 
 
-const LoginScreen = () => {
+const LoginScreen = ({navigation}) => {
   const theme = useColorScheme();
   return (
     <CustomSafeAreaView>
@@ -43,7 +43,7 @@ const LoginScreen = () => {
        />
        <TouchableText
        firstText={'Use other email ID'}
-       onPress={()=>{}}
+       onPress={()=>{navigation.navigate('EmailScreen');}}
        style={{marginVertical:30,marginTop:20}}
        />
        <BottomText />
