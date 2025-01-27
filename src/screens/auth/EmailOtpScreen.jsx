@@ -17,11 +17,8 @@ const EmailOtpScreen = ({route}) => {
         {
             setotpError('Wrong OTP ')
         }
-        setloading(true)
-        setTimeout=(()=>{
             navigation.navigate('SetPasswordScreen',{email:route.params.email})
             setloading(false)
-        },2000)
 
     }
   return (
@@ -41,7 +38,7 @@ const EmailOtpScreen = ({route}) => {
                 setotpError('')
             }}
             onSubmitEditing={()=>{
-                console.log('hit the api')
+                handleSubmit()
             }}
             error={otperror}
             returnKeyType='done'
@@ -55,7 +52,9 @@ const EmailOtpScreen = ({route}) => {
             text={'VERIFY EMAIL ID'}
             loading={loading}
             disabled={loading}
-            onPress={()=>{}}
+            onPress={()=>{
+                handleSubmit();
+            }}
 
             />
         </View>

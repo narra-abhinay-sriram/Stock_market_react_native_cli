@@ -6,6 +6,9 @@ import { useCustomTheme } from './Theme';
 import LoginScreen from '../screens/auth/LoginScreen';
 import EmailScreen from '../screens/auth/EmailScreen';
 import EmailOtpScreen from '../screens/auth/EmailOtpScreen';
+import { Screen } from 'react-native-screens';
+import SetPasswordScreen from '../screens/auth/SetPasswordScreen';
+import PhoneScreen from '../screens/auth/PhoneScreen';
 const Stack = createNativeStackNavigator();
 
 
@@ -37,6 +40,8 @@ const Navigation = () => {
         <Stack.Screen name={'LoginScreen'} component={LoginScreen} />
         <Stack.Screen name={'EmailScreen'} component={EmailScreen} />
         <Stack.Screen name='EmailOtpScreen' component={EmailOtpScreen} />
+        <Stack.Screen name='SetPasswordScreen' component={SetPasswordScreen} />
+        <Stack.Screen name='PhoneScreen' component={PhoneScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
