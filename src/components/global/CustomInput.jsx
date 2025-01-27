@@ -61,6 +61,7 @@ const CustomInput = ({
                     ...textInputStyle,
                     textAlignVertical : textTop ? 'top' : 'center',
                     color:colors.text,
+                
                 },
             ]}
             secureTextEntry={password ? eyeClosed : false}
